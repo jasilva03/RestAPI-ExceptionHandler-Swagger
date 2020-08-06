@@ -18,4 +18,7 @@ In order to use Swagger, the below 2 dependencies have to added to the pom.xml f
   <version>2.9.2</version>
 </dependency>
 
+Also a class has to be created.  The new class will need to:
+- be annotated so that it is managed by the spring container (for instance with @Configuration)
+- use the annotation @EnableSwagger2
 
