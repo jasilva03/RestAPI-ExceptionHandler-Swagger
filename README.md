@@ -14,3 +14,4 @@ Also a class has to be created.  The new class will need to:
 - be annotated so that it is managed by the spring container (for instance with @Configuration)
 - use the annotation @EnableSwagger2
 
+URL to use Swagger UI: http://localhost:8080/swagger-ui.html
